@@ -1,0 +1,29 @@
+Source: nyan
+Priority: optional
+Maintainer: Matthias Geiger <matthias.geiger1024@tutanota.de>
+Build-Depends:	debhelper-compat (= 13),
+		cmake (>= 3.18),
+		flex (>=2.6)
+Standards-Version: 4.6.0
+Section: libs
+Homepage: https://github.com/SFTtech/nyan
+#Vcs-Browser: https://salsa.debian.org/debian/nyan
+#Vcs-Git: https://salsa.debian.org/debian/nyan.git
+Rules-Requires-Root: no
+
+Package: libnyan-dev
+Section: libdevel
+Architecture: any
+Depends: libnyan1 (= ${binary:Version}), ${misc:Depends}
+Description: A data description language library (development files)
+ It stores hierarchical objects with key-value pairs in a database with the key idea that changes in a parent affect all children.
+ .
+ This package contains the development files and headers of libnyan1.
+
+Package: libnyan1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A data description language library
+ It stores hierarchical objects with key-value pairs in a database with the key idea that changes in a parent affect all children.
+ .
+ This package contains the library.

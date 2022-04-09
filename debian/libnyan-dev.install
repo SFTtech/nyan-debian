@@ -1,0 +1,3 @@
+usr/include/nyan/*
+usr/lib/*/cmake/nyan/nyan*.cmake
+usr/lib/*/libnyan.so
