@@ -1,0 +1,43 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nyan
+Upstream-Contact: Jonas Jelten <jj@sft.mx>
+Source: https://github.com/SFTtech/nyan
+
+Files: *
+Copyright:	2016-2022 Jonas Jelten <jj@sft.mx>
+		2016-2022 Markus Otto <otto@fs.tum.de>
+		2016-2022 Michael Enßlin <michael@ensslin.cc>
+		2016-2022 Andre Kupka <kupka@in.tum.de>
+		2016-2022 Tushar Maheshwari <tushar27192@gmail.com>
+		2016-2022 Andrew Thompson <mrwerdo331@me.com>
+License: LGPL-3+
+ GNU LESSER GENERAL PUBLIC LICENSE
+ .
+ Version 3, 29 June 2007
+ .
+ Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ .
+ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+ .
+ This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3 of the GNU General Public License, supplemented by the additional permissions listed below.
+ .
+ On Debian systems, the complete text of the Lesser GNU General Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: debian/*
+Copyright:	2022 Matthias Geiger <matthias.geiger1024@tutanota.de>
+License: GPL-3
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in "/usr/share/common-licenses/GPL-3".
